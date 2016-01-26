@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
+</head>
+<body>
+    <div id="viz"></div>
+    <script type="text/javascript">
+
 var sampleSVG = d3.select("#viz")
     .append("svg")
     .attr("width", 100)
@@ -15,4 +23,7 @@ sampleSVG.append("circle")
     .duration(1000)    
     .attr("r", 10)
     .attr("cx", 30)
-    .style("fill", "black");
+    .style("fill", "black");    
+    </script>
+</body>
+</html>
